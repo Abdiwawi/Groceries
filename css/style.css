@@ -1,6 +1,11 @@
 .header{
   text-align: center;
+  margin-bottom: 80px;
 }
 .header h1{
   font-size: 35px;
+}
+.header p{
+  font-style: italic;
+
 }
