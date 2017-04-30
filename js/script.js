@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $("#food form").submit(function(event){
     var fruits = ["Apples,Beetroot,Banana,Coconut,Cherry,Dates,Figs,Grapes,Guava,Kiwi,Lemon,Mango,Orange,Passion,Pear,Pineapple,Watermelon"];
+    var vegetables = ["Asaparagus,Beans,Cabbages,Carrots,Cauliflower,Cucumber,Eggplant,Gingerroot,Kale,Lettuce,Onions,Potato,Pupmkin,Spinach"]
     var Item1 = ("input#Item1").val();
     var Item2 = ("input#Item2").val();
     var Item3 = ("input#Item3").val();
