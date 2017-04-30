@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("#food form").submit(function(event){
+    var fruits = ["Apples,Beetroot,Banana,Coconut,Cherry,Dates,Figs,Grapes,Guava,Kiwi,Lemon,Mango,Orange,Passion,Pear,Pineapple,Watermelon"];
     var Item1 = ("input#Item1").val();
     var Item2 = ("input#Item2").val();
     var Item3 = ("input#Item3").val();
@@ -10,6 +11,8 @@ $(document).ready(function() {
     var Item8 = ("input#Item8").val();
     var Item9 = ("input#Item9").val();
     var Item10 = ("input#Item10").val();
+
+
 
   }
 }
